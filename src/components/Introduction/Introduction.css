@@ -1,0 +1,145 @@
+.intro-container{
+    position: relative;
+    width: 100%;
+    padding-top: 57px;
+    /* margin-top: -57px; */
+    background: url(https://cdn.cogoport.io/cms-prod/cogo_public/vault/original/home-banner-background-1.webp);
+    background-color: #fbdc00;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100%;
+}
+
+.intro-video-container{
+    display: flex;
+    align-items: center;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 16px;
+}
+
+.intro-text-container{
+    flex: 1 1;
+    font-family: "PT Sans",sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: black;
+    -webkit-font-smoothing: antialiased;
+}
+
+.intro-paragraph-container{
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+.whatsapp-container{
+    display: flex;
+    margin-top: 5px;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 5px;
+    width: 400px;
+    height: 40px;
+    min-width: 110px;
+    align-items: center;
+}
+
+
+.whatsapp-number-container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    height: 40px;
+}
+
+.whatsapp-logo{
+    position: relative;
+    left: 12px;
+    width: 20px;
+    height: 20px
+}
+
+
+
+.form-group{
+    margin-left: 1px;
+    margin-top: 12px;
+   
+}
+
+.form-control{
+    border: none;
+    background-color: transparent;
+    
+}
+
+
+.whatsapp-number{
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 41px!important;
+    padding-right: 100px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000;
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-left: none!important;
+    border-radius: 20px!important;
+    border-top-left-radius: 0!important;
+    border-bottom-left-radius: 0!important;
+    outline: none!important;
+}
+
+
+.video{
+    display: flex;
+    flex: 1 1;
+    width: 595px;
+    height: 400px;
+    margin-bottom: -39px;
+}
+
+
+
+.downarrow{
+    display: flex;
+}
+
+.btn{
+    top: 8px;
+    right: 0px;
+    width: 90px;
+    margin-right:  10px;
+    padding: 0px 4px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    background: #36bb22;
+    border: 1px solid #36bb22;
+    border-radius: 12px;
+
+}

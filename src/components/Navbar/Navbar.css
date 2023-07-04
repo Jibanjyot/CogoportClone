@@ -1,0 +1,13 @@
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-brand {
+    color: black;
+    margin-left: 20px;
+    border-radius: 4px;
+    font-family: sans-serif;
+}
+
+
+.logo{
+    margin-left: 70px;
+}
+
