@@ -5,6 +5,7 @@ import Achievements from "./components/Achievements/Achievements";
 import Services from "./components/Services/Services";
 import Curve from "./components/Curve/Curve";
 import Clients from "./components/Clients/Clients";
+import GetStarted from "./components/GetStarted/GetStarted";
 
 import "./App.css"
 
@@ -20,6 +21,7 @@ function App() {
       <Curve></Curve>
       <Services></Services>
       <Clients></Clients>
+      <GetStarted></GetStarted>
       
     </div>
   );
