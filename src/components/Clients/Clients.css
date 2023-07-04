@@ -1,0 +1,19 @@
+.clients1{
+    margin-bottom: 50px;
+}
+
+.client_heading{
+    text-align: center;
+}
+
+.marquee-wrapper{
+    position: relative;
+    width: 100vw;
+    max-width: 100%;
+    height: 120px;
+    overflow-x: hidden;
+}
+
+.marquee-animation{
+    animation: marquee 5s linear infinite;
+}

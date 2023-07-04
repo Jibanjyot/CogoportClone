@@ -19,7 +19,7 @@ const Introduction = () => {
                         <form>
                             <p>Talk to us now!</p>
                             <div className='whatsapp-container'>
-                                <img src={whatsapplogo} className='whatsapp-logo' />
+                                <img src={whatsapplogo} className='whatsapp-logo' alt='whatsapp logo' />
                                 <div class="form-group">
                                     <select class="form-control" id="countryCode">
                                         <option value="+1">+1</option>
@@ -28,7 +28,7 @@ const Introduction = () => {
                                 </div>
                                 
                                 <div className='downarrow' role="button" aria-label="button" tabindex="0">
-                                <img src={downarrow} className='downarrow' />
+                                <img src={downarrow} className='downarrow' alt='downarrow'/>
                                 </div>
                                 <div class="form-group">
                                     <input type="text" class="form-control" id="phoneNumber"/>
@@ -37,11 +37,13 @@ const Introduction = () => {
                             </div>
                             
                         </form>
-
                     </div>
 
                 </div>
-                <video src="https://cdn.cogoport.io/cms-prod/cogo_public/vault/original/cogoverse_desktop_2_webm.webm" autoPlay loop className="video" />
+
+                <video autoPlay muted loop playsInline className='video'>
+                    <source src="https://cdn.cogoport.io/cms-prod/cogo_public/vault/original/cogoverse_desktop_3_webm.webm" type='video/webm'/>
+                </video>
 
 
             </div>
