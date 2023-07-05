@@ -92,3 +92,29 @@
     font-size: 14px!important;
     color: #9a9a9a;
 }
+
+.view-all-button-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.view-all-button{
+    color: #fff;
+    background-color: #ee3425;
+    border: 1px solid #ee3425;
+    min-width: 72px;
+    height: 36px;
+    width: fit-content;
+    padding: 8px 42px!important;
+    font-size: 14px!important;
+    font-weight: 700!important;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+}
+
+.view-all-text{
+    color: #fff;
+}
