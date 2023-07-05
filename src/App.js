@@ -10,6 +10,7 @@ import HowItWorks from "./components/HowItWorks/HowItWorks";
 import IndustriesServed from "./components/IndustriesServed/IndustriesServed";
 import GetStarted2 from "./components/GetStarted2/GetStarted2";
 import GrowFaster from "./components/GrowFaster/GrowFaster";
+import Blogs from "./components/Blogs/Blogs";
 
 import "./App.css"
 
@@ -30,6 +31,7 @@ function App() {
       <IndustriesServed></IndustriesServed>
       <GetStarted2></GetStarted2>
       <GrowFaster></GrowFaster>
+      <Blogs></Blogs>
       
     </div>
   );
