@@ -6,6 +6,7 @@ import Services from "./components/Services/Services";
 import Curve from "./components/Curve/Curve";
 import Clients from "./components/Clients/Clients";
 import GetStarted from "./components/GetStarted/GetStarted";
+import HowItWorks from "./components/HowItWorks/HowItWorks";
 
 import "./App.css"
 
@@ -22,6 +23,7 @@ function App() {
       <Services></Services>
       <Clients></Clients>
       <GetStarted></GetStarted>
+      <HowItWorks></HowItWorks>
       
     </div>
   );
