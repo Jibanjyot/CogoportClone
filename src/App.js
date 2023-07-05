@@ -7,6 +7,9 @@ import Curve from "./components/Curve/Curve";
 import Clients from "./components/Clients/Clients";
 import GetStarted from "./components/GetStarted/GetStarted";
 import HowItWorks from "./components/HowItWorks/HowItWorks";
+import IndustriesServed from "./components/IndustriesServed/IndustriesServed";
+import GetStarted2 from "./components/GetStarted2/GetStarted2";
+import GrowFaster from "./components/GrowFaster/GrowFaster";
 
 import "./App.css"
 
@@ -24,6 +27,9 @@ function App() {
       <Clients></Clients>
       <GetStarted></GetStarted>
       <HowItWorks></HowItWorks>
+      <IndustriesServed></IndustriesServed>
+      <GetStarted2></GetStarted2>
+      <GrowFaster></GrowFaster>
       
     </div>
   );

@@ -1,0 +1,44 @@
+.get-started-2-main-container{
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.get-started-2-sub-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.get-started-2-text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 100px;
+    
+}
+
+.get-started-2-button{
+    
+    display: inline-block;
+    max-width: 200px;
+    height: 40px;
+    padding: 8px 42px;
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    background-color: #ee3425;;
+    border-radius: 8px;
+}
+
+.get-started-2-button:hover{
+    text-decoration: none;
+}
+
+.get-started-2-image-container{
+    display: flex;
+    flex: 1 1;
+    justify-content: flex-end;
+}
