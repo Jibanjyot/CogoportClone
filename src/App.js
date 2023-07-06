@@ -11,6 +11,7 @@ import IndustriesServed from "./components/IndustriesServed/IndustriesServed";
 import GetStarted2 from "./components/GetStarted2/GetStarted2";
 import GrowFaster from "./components/GrowFaster/GrowFaster";
 import Blogs from "./components/Blogs/Blogs";
+import SubscribeToNewsletter from "./components/SubscribeToNewsletter/SubscribeToNewsletter";
 
 import "./App.css"
 
@@ -32,6 +33,8 @@ function App() {
       <GetStarted2></GetStarted2>
       <GrowFaster></GrowFaster>
       <Blogs></Blogs>
+      <Curve></Curve>
+      <SubscribeToNewsletter></SubscribeToNewsletter>
       
     </div>
   );
