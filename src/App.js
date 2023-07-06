@@ -12,6 +12,9 @@ import GetStarted2 from "./components/GetStarted2/GetStarted2";
 import GrowFaster from "./components/GrowFaster/GrowFaster";
 import Blogs from "./components/Blogs/Blogs";
 import SubscribeToNewsletter from "./components/SubscribeToNewsletter/SubscribeToNewsletter";
+import PreFooter from "./components/PreFooter/PreFooter";
+import Prefooter2 from "./components/Prefooter2/Prefooter2";
+import Curve2 from "./components/Curve2/Curve2";
 
 import "./App.css"
 
@@ -33,8 +36,10 @@ function App() {
       <GetStarted2></GetStarted2>
       <GrowFaster></GrowFaster>
       <Blogs></Blogs>
-      <Curve></Curve>
+      <Curve2></Curve2>
       <SubscribeToNewsletter></SubscribeToNewsletter>
+      <PreFooter></PreFooter>
+      <Prefooter2></Prefooter2>
       
     </div>
   );

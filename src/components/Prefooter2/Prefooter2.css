@@ -1,0 +1,27 @@
+.pre-footer2-main-container div {
+    display: flex;
+}
+
+.pre-footer2-sub-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px 0;
+    background-color: #ebbe00;
+}
+
+.pre-footer2-text-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+
+.pre-footer2-text {
+    width: fit-content;
+    line-height: 2rem;
+    color: #000;
+    text-decoration: none;
+}
+
+.pre-footer2-text:hover {
+    color: #ee3425;
+  }

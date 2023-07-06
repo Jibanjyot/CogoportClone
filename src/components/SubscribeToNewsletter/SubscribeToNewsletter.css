@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     padding-top: 120px;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     background-color: #fbdc00;
 }
 
@@ -16,9 +16,7 @@
     flex-direction: row;
 }
 
-.subscribe-to-news-letter-text-container{
-    
-}
+
 
 .subscribe-to-news-letter-text-container div{
     display: block;
@@ -26,10 +24,6 @@
 
 .subscribe-to-news-letter-text-heading{
     margin: 0;
-}
-
-.subscribe-to-news-letter-text-style{
-
 }
 
 .subscribe-button-container{

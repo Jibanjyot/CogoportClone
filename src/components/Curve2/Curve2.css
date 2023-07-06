@@ -1,0 +1,12 @@
+.ContainerC21{
+    background: #fbdc00;
+}
+
+.ContainerC22{
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+    /* border-radius: 25px; */
+    border-bottom-right-radius: 100% 150%;
+    border-bottom-left-radius: 100% 150%;
+}
