@@ -47,4 +47,7 @@
     .get-started-2-sub-container{
         flex-direction: column-reverse;
     }
+    .get-started-2-text-container{
+        padding-left: 20px;
+    }
 }

@@ -66,4 +66,11 @@
     .subscribe-to-news-letter-sub-container{
         display: none;
     }
+    .subscribe-to-news-letter-text-container{
+        padding-left: 20px;
+        padding-right: 10px;
+    }
+    .enter-email-container{
+        width: 200px!important;
+    }
 }
