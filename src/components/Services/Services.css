@@ -1,6 +1,5 @@
+.containerS1 {
 
-.containerS1{
-   
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -10,29 +9,54 @@
     background: #fffef2;
 }
 
-.containerS2{
+.containerS2 {
     /* width: 1200px; */
     margin-top: 40px;
 }
 
-.containerS3{
+.containerS3 {
     display: flex;
     flex-wrap: wrap-reverse;
     align-items: center;
     padding: 16px;
 }
 
-.containerS4{
+@media (max-width: 767px) {
+    .containerS3 {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100% !important;
+        padding-right: 16px !important;
+        padding-left: 16px !important;
+    }
+}
+
+
+
+.containerS4 {
     flex: 1 1;
 }
 
-.containerS5{
+@media (max-width: 767px) {
+    .containerS4 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .containerS4 h2 {
+        font-size: 24px;
+    }
+}
+
+
+.containerS5 {
     display: flex;
     flex: 1 1;
     justify-content: flex-end;
 }
 
-.ServiceImage{
+.ServiceImage {
     display: block;
     width: 500px;
     -o-object-fit: contain;
@@ -40,7 +64,7 @@
     height: 100%;
 }
 
-.containerS6{
+.containerS6 {
     width: 1200px;
     display: flex;
     align-items: center;
@@ -48,22 +72,32 @@
     flex-direction: column;
 }
 
-.containerS6 h3{
+
+@media (max-width: 767px) {
+    .containerS6 {
+        display: flex;
+        width: 100% !important;
+        padding-right: 16px !important;
+        padding-left: 16px !important;
+    }
+}
+
+.containerS6 h3 {
     margin-bottom: 28px;
 }
 
-.containerS7{
+.containerS7 {
     display: flex;
     justify-content: space-between;
     background: #fffef2;
 }
 
-.containerS8{
+.containerS8 {
     display: flex;
     flex-direction: column;
 }
 
-.containerS9{
+.containerS9 {
     display: flex;
     align-items: center;
     margin-top: 14px;
@@ -72,11 +106,11 @@
 
 @media (max-width: 800px) {
     .containerS9 {
-      flex-direction: column;
+        flex-direction: column;
     }
-  }
+}
 
-.containerS10{
+.containerS10 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -87,16 +121,16 @@
         display: flex;
         flex-wrap: wrap;
     }
-  }
+}
 
-.product-heading{
+.product-heading {
     width: 300px;
     margin-right: 50px;
     font-size: 24px;
     color: #000;
 }
 
-.product-card{
+.product-card {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -108,28 +142,28 @@
     background: #fff;
     border: 1.5px solid transparent;
     border-radius: 10px;
-    box-shadow: 0 1px 6px rgba(169,188,218,.65);
+    box-shadow: 0 1px 6px rgba(169, 188, 218, .65);
 }
 
-.product-name{
+.product-name {
     margin-top: 5px;
     font-size: 16px;
     line-height: 1.3em;
     text-align: center;
 }
 
-.containerS10 a{
-        color: #ee3425;
-        text-decoration: none;
+.containerS10 a {
+    color: #ee3425;
+    text-decoration: none;
 
 }
 
-.product-card h4{
+.product-card h4 {
     margin-bottom: 1em;
     color: #000;
 }
 
-.find-more-card{
+.find-more-card {
     position: absolute;
     bottom: 0;
     display: flex;
