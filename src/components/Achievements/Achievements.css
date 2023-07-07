@@ -1,22 +1,25 @@
 
 .container1{
-    
-    margin-left: 189px;
-    margin-right: 189px;
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
     padding: 16px;
     font-family: "PT Sans",sans-serif;;
     font-size: 14px;
+    align-items: center;
+    justify-content: center;
     line-height: 1.5;
     color: #434343;
     -webkit-font-smoothing: antialiased;
 }
 
 .container2{
+    width: 1200px;
     display: flex;
-    width: 100%;
+    /* width: 100%; */
     flex-flow: row wrap;
-    align-content: space-between;
-    justify-content: space-between;
+    align-content: space-around;
+    justify-content: space-around;
     padding-top: 50px;
     margin-bottom: -40px;
 }
@@ -48,4 +51,14 @@ h4{
     font-family: Ubuntu,sans-serif;
     font-size: 16px;
     font-weight: bold;
+}
+
+@media (max-width: 767px){
+    .container3 h2{
+        font-size: 24px;
+    }
+    .container3 h4{
+        font-size: 14px;
+    }
+    
 }

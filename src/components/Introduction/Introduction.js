@@ -20,8 +20,8 @@ const Introduction = () => {
                             <p>Talk to us now!</p>
                             <div className='whatsapp-container'>
                                 <img src={whatsapplogo} className='whatsapp-logo' alt='whatsapp logo' />
-                                <div class="form-group">
-                                    <select class="form-control" id="countryCode">
+                                <div className="form-group">
+                                    <select className="form-control" id="countryCode">
                                         <option value="+1">+1</option>
                                         <option value="+91">+91</option>
                                     </select>
@@ -30,10 +30,10 @@ const Introduction = () => {
                                 <div className='downarrow' role="button" aria-label="button" tabindex="0">
                                 <img src={downarrow} className='downarrow' alt='downarrow'/>
                                 </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="phoneNumber"/>
+                                <div className="form-group">
+                                    <input type="text" className="form-control" id="phoneNumber"/>
                                 </div>
-                                <button class="btn btn-sm btn-success rounded-pill">Get Started</button>
+                                <button className="button-style">Get Started</button>
                             </div>
                             
                         </form>
@@ -41,10 +41,14 @@ const Introduction = () => {
 
                 </div>
 
-                <video autoPlay muted loop playsInline className='video'>
-                    <source src="https://cdn.cogoport.io/cms-prod/cogo_public/vault/original/cogoverse_desktop_3_webm.webm" type='video/webm'/>
+                <video autoPlay muted loop playsInline className='video-box'>
+                    <source src="https://cdn.cogoport.io/cms-prod/cogo_public/vault/original/cogoverse_desktop_2_webm.webm" type='video/webm'/>
+                </video>
+                <video autoPlay muted loop playsInline className='video-box2'>
+                    <source src="https://cdn.cogoport.io/cms-prod/cogo_public/vault/original/mobile-track-shipment.webm" type='video/webm'/>
                 </video>
 
+                
 
             </div>
         </div>
