@@ -11,7 +11,7 @@ const GetStarted = () => {
                 </div>
                 <a target="_blank" href="https://app.cogoport.com/en-IN/signup" rel="noreferrer" style={{ textDecoration: 'none', marginBottom:15 }}>
                     <button type="button" className='button-holder'>
-                        <div class="button-">Get Started</div>
+                        <div class="button_style">Get Started</div>
                         <img src={rightdropdown}/>
                     </button></a>
             </div>

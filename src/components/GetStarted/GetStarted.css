@@ -1,5 +1,4 @@
-
-.get-started-background{
+.get-started-background {
     margin-bottom: 50px;
     background: #fbdc00;
     display: flex;
@@ -8,7 +7,7 @@
 }
 
 
-.get-started-content{
+.get-started-content {
     width: 1200px;
     position: relative;
     display: flex;
@@ -17,12 +16,12 @@
     justify-content: space-between;
 }
 
-.get-started-text{
+.get-started-text {
     padding: 25px 0;
     padding-top: 40px;
 }
 
-.button-holder{
+.button-holder {
 
     min-width: 72px;
     height: 36px;
@@ -31,16 +30,29 @@
     border: 1px solid#ee3425;
     border-radius: 4px;
     outline: none;
-    transition: color .1s linear,background-color .1s linear,border-color .1s linear;
-    will-change: color,background-color,border-color;
+    transition: color .1s linear, background-color .1s linear, border-color .1s linear;
+    will-change: color, background-color, border-color;
     align-items: center;
     cursor: pointer;
     display: flex;
     justify-content: center;
     line-height: 1.2;
-    
+
 }
 
-.get-started-content a{
+.get-started-content a {
     color: #ee3425;
+}
+
+@media (max-width: 767px) {
+    .get-started-content {
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 16px;
+    }
+}
+
+.button_style{
+    color: white;
 }
