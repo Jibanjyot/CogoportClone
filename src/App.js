@@ -15,7 +15,6 @@ import SubscribeToNewsletter from "./components/SubscribeToNewsletter/SubscribeT
 import PreFooter from "./components/PreFooter/PreFooter";
 import Prefooter2 from "./components/Prefooter2/Prefooter2";
 import Curve2 from "./components/Curve2/Curve2";
-
 import "./App.css"
 
 function App() {
