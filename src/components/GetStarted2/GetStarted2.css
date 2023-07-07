@@ -42,3 +42,9 @@
     flex: 1 1;
     justify-content: flex-end;
 }
+
+@media (max-width: 767px) {
+    .get-started-2-sub-container{
+        flex-direction: column-reverse;
+    }
+}

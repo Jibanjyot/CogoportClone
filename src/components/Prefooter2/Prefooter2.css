@@ -25,3 +25,12 @@
 .pre-footer2-text:hover {
     color: #ee3425;
   }
+
+
+@media (max-width: 767px) {
+    
+    .pre-footer2-main-container{
+        display: none;
+    }
+    
+}
