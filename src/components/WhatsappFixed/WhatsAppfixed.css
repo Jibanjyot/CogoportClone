@@ -1,0 +1,30 @@
+.whatsappfixed-main-container{
+    display: none;
+    height: 80px;
+    width: 90px;
+    background-color: #ee3425;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+}
+.whatsappfixed-sub-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.whatsappfixed-sub-container h4{
+    font-family: "PT Sans",sans-serif;
+    font-size: 14px;
+    color: white;
+    padding-top: 10px;
+}
+
+.whatsappfixed-position{
+    position: fixed;
+    top: 100px;
+    right: 0;
+}
