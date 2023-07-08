@@ -1,28 +1,28 @@
-.grow-faster-main-container{
+.grow-faster-main-container {
     margin-bottom: 50px;
     display: flex;
     flex-direction: column;
 }
 
-.grow-faster-video-container{
+.grow-faster-video-container {
     display: flex;
     flex-direction: column;
 }
 
-.video-thumbnail-container{
+.video-thumbnail-container {
     position: relative;
     height: 450px;
     cursor: pointer;
 }
 
-.video-thumbnail{
+.video-thumbnail {
     width: 100%;
     height: 100%;
     -o-object-fit: cover;
     object-fit: cover;
 }
 
-.play-button-container{
+.play-button-container {
     position: absolute;
     top: 0;
     right: 0;
@@ -32,38 +32,38 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: rgba(0,0,0,.4);
+    background-color: rgba(0, 0, 0, .4);
 }
 
 
-.grow-faster-text-container{
+.grow-faster-text-container {
     display: flex;
+    justify-content: center;
     background-color: #ee3425;
 }
 
-.grow-faster-text-sub-container{
+.grow-faster-text-sub-container {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     position: relative;
     align-items: center;
     justify-content: space-between;
-    padding: 16px 100px;
-
-    width: 100%;
+    padding: 16px;
+    width: 1200px;
 }
 
-.grow-faster-text{
+.grow-faster-text {
     padding: 25px 0;
     color: white;
 }
 
-.grow-faster-button{
+.grow-faster-button {
     border: 1px solid #ee3425;
     min-width: 72px;
     height: 36px;
     padding: 4px 16px;
-    color: #000!important;
+    color: #000 !important;
     background: #fbdc00;
     border-radius: 4px;
     outline: none;
@@ -73,3 +73,27 @@
     justify-content: center;
     line-height: 1.2;
 }
+
+.grow-faster-text h3{
+    margin-bottom: 10px;
+    font-family: "Ubuntu",sans-serif;
+    font-weight: bold;
+}
+
+.know-more-button{
+    font-family: "PT Sans",sans-serif;
+    font-weight: 700;
+}
+
+@media (max-width: 767px) {
+
+    .grow-faster-text-sub-container {
+
+        width: 100%;
+    }
+    .grow-faster-text h3{
+        font-size: 20px;
+    }
+}
+
+

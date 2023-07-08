@@ -7,6 +7,7 @@
 .blogs-sub-container {
     display: flex;
     flex-direction: column;
+    width: 1200px;
 }
 
 .blogs-sub-container h3{
@@ -16,6 +17,8 @@
 
 .blog-title {
     text-align: center;
+    font-family: "Ubuntu",sans-serif;
+    font-weight: bold;
 
 }
 
@@ -129,6 +132,9 @@
         flex-direction: column;
     }
     .blog {
+        width: 100%;
+    }
+    .blogs-sub-container{
         width: 100%;
     }
 }
