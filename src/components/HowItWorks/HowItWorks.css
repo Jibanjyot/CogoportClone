@@ -4,6 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: -120px;
 }
 
 .how-it-works-inside-container {
@@ -42,7 +43,7 @@
 
 
 .selected {
-    width: 300px;
+    width: 220px;
     height: 30px;
     display: flex;
     justify-content: center;
@@ -56,11 +57,12 @@
     background-color: #fbdc00;
     border-color: #fbdc00;
     box-shadow: none;
+    font-size: 14px;
 }
 
 
 .unselected {
-    width: 300px;
+    width: 220px;
     height: 30px;
     display: flex;
     justify-content: center;
@@ -73,11 +75,12 @@
     border-style: solid;
     border-color: white;
     box-shadow: none;
+    font-size: 14px;
 }
 
 .discover-arrow {
     position: relative;
-    top: -300px;
+    top: -270px;
     left: 300px
 }
 
@@ -117,6 +120,7 @@
 .demo-holder {
     display: flex;
     flex-direction: row;
+    font-family: "PT Sans",sans-serif;
 }
 
 .demo-holder p{
@@ -126,7 +130,9 @@
 .how-it-works-card-subheader {
     display: flex;
     flex-direction: row;
-    font-weight: bold;
+    /* font-weight: bold; */
+    font-size: 20px;
+    font-weight: 600;
 }
 
 
@@ -145,7 +151,7 @@
 
 .top-left-arrow {
     position: relative;
-    top: -200px;
+    top: -150px;
     left: 300px
 }
 

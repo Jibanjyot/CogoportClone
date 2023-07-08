@@ -22,6 +22,12 @@
 }
 
 .get-started-text h3{
+    font-family: "Ubuntu",sans-serif;
+    font-size: 28px;
+    line-height: 1.2;
+}
+
+.get-started-text h3{
     font-family: "PT Sans",sans-serif;
     font-weight: bold;
 }
@@ -60,4 +66,7 @@
 
 .button_style{
     color: white;
+    font-family: "PT Sans",sans-serif;
+    font-size: 14px;
+    font-weight: 700 !important;
 }
