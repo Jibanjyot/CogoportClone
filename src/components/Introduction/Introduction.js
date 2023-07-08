@@ -17,7 +17,7 @@ const Introduction = () => {
                     </p>
                     <div >
                         <form>
-                            <p>Talk to us now!</p>
+                            <p style={{marginBottom:'-5px',fontWeight:'bold',fontSize:'12px'}}>Talk to us now!</p>
                             <div className='whatsapp-container'>
                                 <img src={whatsapplogo} className='whatsapp-logo' alt='whatsapp logo' />
                                 <div className="form-group">

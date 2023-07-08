@@ -1,8 +1,8 @@
 
 .container1{
     display: flex;
-    margin-left: 10px;
-    margin-right: 10px;
+    /* margin-left: 10px;
+    margin-right: 10px; */
     padding: 16px;
     font-family: "PT Sans",sans-serif;;
     font-size: 14px;
@@ -10,6 +10,7 @@
     justify-content: center;
     line-height: 1.5;
     color: #434343;
+    margin-bottom: 90px;
     -webkit-font-smoothing: antialiased;
 }
 
@@ -18,8 +19,8 @@
     display: flex;
     /* width: 100%; */
     flex-flow: row wrap;
-    align-content: space-around;
-    justify-content: space-around;
+    /* align-content: space-between;*/
+     justify-content: space-between;  
     padding-top: 50px;
     margin-bottom: -40px;
 }
@@ -38,6 +39,7 @@
 }
 .container4 {
     margin-bottom: 5px;
+    font-family: "Ubuntu",sans-serif;
 }
 h2 {
     font-size: 40px;
@@ -59,6 +61,12 @@ h4{
     }
     .container3 h4{
         font-size: 14px;
+    }
+    .container2{
+        justify-content: space-around;
+    }
+    .container1{
+        margin-bottom: 30px;
     }
     
 }

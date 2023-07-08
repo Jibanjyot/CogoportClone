@@ -1,7 +1,7 @@
 .intro-container {
     position: relative;
     width: 100%;
-    padding-top: 57px;
+    /* padding-top: 57px; */
     /* margin-top: -57px; */
     background: url(https://cdn.cogoport.io/cms-prod/cogo_public/vault/original/home-banner-background-1.webp);
     background-color: #fbdc00;
@@ -35,18 +35,30 @@
     line-height: 1.5;
     color: black;
     -webkit-font-smoothing: antialiased;
-    padding-top: 40px;
+    padding-top: 60px;
 }
+
+
 
 .intro-text-container h1 {
     font-size: 40px;
     font-weight: bold;
+    line-height: 1.2;
+    font-family: "Ubuntu",sans-serif;
 }
 
-@media (max-width: 800px) {
+.intro-text-container h1{
+    margin-bottom: 10px;
+}
+
+@media (max-width: 767px) {
     .intro-text-container {
         flex-direction: column-reverse;
         
+    }
+
+    .intro-text-container h1 {
+        font-size: 24px;
     }
 }
 

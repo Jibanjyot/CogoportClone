@@ -4,11 +4,13 @@
     /* margin-left: 20px;
     border-radius: 4px; */
     font-family: "Ubuntu",sans-serif;
+    font-size: 14px;
+    font-weight: bold;
 }
 
 
 .logo{
-    margin-left: 70px;
+    margin-left: 100px;
 }
 
 .dropdown{
@@ -20,4 +22,23 @@
     border: 1px solid #ee3425;
     border-radius: 8px;
     margin-right: 30px;
+}
+
+#navbarNav{
+    margin-left: 100px;
+}
+
+.navbar-nav :focus{
+    color: #ee3425;
+}
+
+
+@media (max-width: 767px) {
+    #navbarNav{
+        margin-left: 0px;
+    }
+    .logo{
+        position: relative;
+        right: 120px;
+    }
 }
