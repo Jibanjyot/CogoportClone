@@ -24,6 +24,8 @@
 
 .subscribe-to-news-letter-text-heading{
     margin: 0;
+    font-family: "PT Sans";
+    font-weight: bold;
 }
 
 .subscribe-button-container{

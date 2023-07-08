@@ -13,7 +13,7 @@ const Introduction = () => {
                     <p className='intro-paragraph-container'>
                         Strengthen your Supply Chain and, Scale your Business
                         <br />
-                        with Reliable Shippig and Cashflows
+                        with Reliable Shipping and Cashflows
                     </p>
                     <div >
                         <form>
@@ -21,17 +21,17 @@ const Introduction = () => {
                             <div className='whatsapp-container'>
                                 <img src={whatsapplogo} className='whatsapp-logo' alt='whatsapp logo' />
                                 <div className="form-group">
-                                    <select className="form-control" id="countryCode">
-                                        <option value="+1">+1</option>
-                                        <option value="+91">+91</option>
+                                    <select className="form-control-contry-code" id="countryCode">
+                                        <option value="+1">+91</option>
+                                        <option value="+91">+1</option>
                                     </select>
                                 </div>
                                 
-                                <div className='downarrow' role="button" aria-label="button" tabindex="0">
+                                {/* <div className='downarrow' role="button" aria-label="button" tabindex="0">
                                 <img src={downarrow} className='downarrow' alt='downarrow'/>
-                                </div>
+                                </div> */}
                                 <div className="form-group">
-                                    <input type="text" className="form-control" id="phoneNumber"/>
+                                    <input type="text" className="form-control" id="phoneNumber" placeholder="WhatsApp Number"/>
                                 </div>
                                 <button className="button-style">Get Started</button>
                             </div>

@@ -9,6 +9,11 @@
     flex-direction: column;
 }
 
+.blogs-sub-container h3{
+    font-family: "PT Sans",sans-serif;
+    font-weight: bold;
+}
+
 .blog-title {
     text-align: center;
 

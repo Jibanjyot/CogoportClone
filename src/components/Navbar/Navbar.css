@@ -1,9 +1,9 @@
 .navbar-light .navbar-nav .nav-link,
-.navbar-light .navbar-brand {
+.navbar-light .navbar-brand .navbar {
     color: black;
     /* margin-left: 20px;
     border-radius: 4px; */
-    font-family: sans-serif;
+    font-family: "Ubuntu",sans-serif;
 }
 
 

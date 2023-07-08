@@ -11,6 +11,10 @@
     align-items: center;
 }
 
+.industries-served-sub-container h3{
+    font-family: "PT Sans",sans-serif;
+    font-weight: bold;
+}
 .industry-icons-container{
     display: flex;
     flex-direction: row;

@@ -21,6 +21,11 @@
     padding-top: 40px;
 }
 
+.get-started-text h3{
+    font-family: "PT Sans",sans-serif;
+    font-weight: bold;
+}
+
 .button-holder {
 
     min-width: 72px;

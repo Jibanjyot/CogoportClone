@@ -4,6 +4,8 @@
 
 .client_heading{
     text-align: center;
+    font-family: "PT Sans",sans-serif;
+    font-weight: bold;
 }
 
 .marquee-wrapper{

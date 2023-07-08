@@ -11,7 +11,7 @@ const Achievements = () => {
                 </div>
 
                 <div className='container3'>
-                    <h2 className='container4'>10,000+</h2>
+                    <h2 className='container4'>10,000</h2>
                     <h4>Ports Pairs Served</h4>
                 </div>
 

@@ -58,16 +58,16 @@ const HowItWorks = () => {
                                         style={{ color: "transparent" }} /></div>
                                 </div>
                                 <div className='bottom-stages-Class'>
-                                    <p>Stage 1</p>
+                                    <p>Stage 2</p>
                                     <div className='how-it-works-card-subheader'>
                                         <img src={discover} />
-                                        <div>Discover</div>
+                                        <div>Plan & Book</div>
                                     </div>
                                     <div>
                                         <ul>
-                                            <li>Spot and Contract Rates for Logistics</li>
-                                            <li>Service details, Trade Compliance/ Regulatory Requirements</li>
-                                            <li>Knowledge and Insights on Trade, Logistics, Finance, Supply Chains</li>
+                                            <li>Route, Service Schedules, Inventory, and Cashflow planning</li>
+                                            <li>Book with upfront visibility of service terms and inclusions</li>
+                                            
                                         </ul>
                                     </div>
 
@@ -99,16 +99,16 @@ const HowItWorks = () => {
                                         style={{ color: "transparent" }} /></div>
                                 </div>
                                 <div className='top-stages-Class-right'>
-                                    <p>Stage 1</p>
+                                    <p>Stage 3</p>
                                     <div className='how-it-works-card-subheader'>
                                         <img src={discover} />
-                                        <div>Discover</div>
+                                        <div>Execute</div>
                                     </div>
                                     <div>
                                         <ul>
-                                            <li>Spot and Contract Rates for Logistics</li>
-                                            <li>Service details, Trade Compliance/ Regulatory Requirements</li>
-                                            <li>Knowledge and Insights on Trade, Logistics, Finance, Supply Chains</li>
+                                            <li>Ocean and Air Cargo Tracking</li>
+                                            <li>Documentation and Filings, Handled</li>
+                                            <li>Multi-modal: Smooth coordination and handovers between various service providers and stakeholders</li>
                                         </ul>
                                     </div>
 
@@ -122,16 +122,15 @@ const HowItWorks = () => {
                                             style={{ color: "transparent" }} /></div>
                                 </div>
                                 <div className='bottom-stages-Class'>
-                                    <p>Stage 1</p>
+                                    <p>Stage 4</p>
                                     <div className='how-it-works-card-subheader'>
                                         <img src={discover} />
-                                        <div>Discover</div>
+                                        <div>Finance</div>
                                     </div>
                                     <div>
                                         <ul>
-                                            <li>Spot and Contract Rates for Logistics</li>
-                                            <li>Service details, Trade Compliance/ Regulatory Requirements</li>
-                                            <li>Knowledge and Insights on Trade, Logistics, Finance, Supply Chains</li>
+                                            <li>Deferred payment on Logistics with PayLater</li>
+                                            <li>Trade Finance for your Cargo with Export Factoring</li>
                                         </ul>
                                     </div>
 

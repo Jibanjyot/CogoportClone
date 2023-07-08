@@ -4,7 +4,7 @@
     justify-content: center;
     width: 100%;
     padding: 0 50px 50px;
-    font-family: var(--font-family);
+    font-family: "PT Sans",sans-serif !important;
     background: #fbdc00;
 }
 
@@ -31,6 +31,7 @@
 .footer-items-container {
     display: flex;
     flex-direction: column;
+    font-size: 14px;
 }
 
 .footer-items-card {

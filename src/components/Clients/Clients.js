@@ -4,7 +4,7 @@ import "./Clients.css"
 const Clients = () => {
     return (
         <div className='clients1'>
-            <h3 className='client_heading'>Trusted By</h3>
+            <h3 className='client_heading'>Trusted by</h3>
             <div className='marquee-wrapper'>
                 <div>
                     <marquee>

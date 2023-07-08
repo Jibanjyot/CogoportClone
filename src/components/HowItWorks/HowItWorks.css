@@ -15,6 +15,11 @@
     margin-bottom: 50px;
 }
 
+.how-it-works-inside-container h3{
+    font-family: "PT Sans",sans-serif;
+    font-weight: bold;
+}
+
 .how-it-works-inside-container h3 {
     font-size: 28px;
     line-height: 1.2;
@@ -38,6 +43,10 @@
 
 .selected {
     width: 300px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 20px;
     margin: 0 20px;
     font-weight: 700;
@@ -52,6 +61,10 @@
 
 .unselected {
     width: 300px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 20px;
     margin: 0 20px;
     font-weight: 700;
@@ -106,28 +119,33 @@
     flex-direction: row;
 }
 
+.demo-holder p{
+    color: #ee3425;
+    font-weight: bold;
+}
 .how-it-works-card-subheader {
     display: flex;
     flex-direction: row;
+    font-weight: bold;
 }
 
 
 .top-right-arrow {
     position: relative;
-    top: 300px;
+    top: 260px;
     right: 150px
 }
 
 
 .bottom-right-arrow {
     position: relative;
-    top: 180px;
+    top: 120px;
     right: 150px
 }
 
 .top-left-arrow {
     position: relative;
-    top: -160px;
+    top: -200px;
     left: 300px
 }
 
@@ -192,7 +210,7 @@
         width: 100%;
     }
     .bottom-stages-Class{
-        margin-bottom: 20px;
+        margin-bottom: 50px;
         width: 100%;
     }
     .demo-holder{

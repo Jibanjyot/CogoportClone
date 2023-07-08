@@ -117,7 +117,9 @@ p {
 .form-group {
     margin-left: 1px;
     margin-top: 12px;
-    width: 50px;
+    position: relative;
+    right: 10px;
+    /* width: 200px; */
     
 
 }
@@ -125,7 +127,16 @@ p {
 .form-control {
     border: none;
     background-color: transparent;
+    width: 160px;
 
+}
+
+.form-control-contry-code{
+    position: relative;
+    left: 10px;
+    border: none;
+    background-color: transparent;
+    width:50px;
 }
 
 
@@ -200,7 +211,7 @@ video {
 .button-style {
     position: relative;
     /* top: 8px; */
-    left: 85px;
+    /* left: 85px; */
     width: 100px;
     padding: 2px 8px;
     color: #fff;

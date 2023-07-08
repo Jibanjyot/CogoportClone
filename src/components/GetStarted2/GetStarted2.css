@@ -17,6 +17,11 @@
     
 }
 
+.get-started-2-text-container h2{
+    font-family: "PT Sans",sans-serif;
+    font-weight: bold;
+}
+
 .get-started-2-button{
     
     display: inline-block;
