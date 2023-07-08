@@ -44,7 +44,7 @@ const Services = () => {
                 </div>
             </div>
             <div className='containerS6'>
-                <h3>Our Products</h3>
+                <h3 style={{fontFamily:"Ubuntu"}}>Our Products</h3>
                 <div className='containerS7'>
                     <div className='containerS8'>
                         <div className='containerS9'>
