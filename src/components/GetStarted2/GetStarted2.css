@@ -1,29 +1,29 @@
-.get-started-2-main-container{
+.get-started-2-main-container {
     margin-bottom: 50px;
     display: flex;
     justify-content: center;
 }
 
-.get-started-2-sub-container{
+.get-started-2-sub-container {
     display: flex;
     flex-direction: row;
 }
 
-.get-started-2-text-container{
+.get-started-2-text-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-right: 100px;
-    
+
 }
 
-.get-started-2-text-container h2{
-    font-family: "PT Sans",sans-serif;
+.get-started-2-text-container h2 {
+    font-family: "Ubuntu", sans-serif;
     font-weight: bold;
 }
 
-.get-started-2-button{
-    
+.get-started-2-button {
+
     display: inline-block;
     max-width: 200px;
     height: 40px;
@@ -34,25 +34,56 @@
     color: #fff;
     text-align: center;
     cursor: pointer;
-    background-color: #ee3425;;
+    background-color: #ee3425;
+    ;
     border-radius: 8px;
 }
 
-.get-started-2-button:hover{
+.get-started-2-button:hover {
     text-decoration: none;
 }
 
-.get-started-2-image-container{
+.get-started-2-image-container {
     display: flex;
     flex: 1 1;
     justify-content: flex-end;
 }
 
+.image-style-2 {
+    animation: moveUpDown 2s ease-in-out infinite alternate;
+
+}
+
+@keyframes moveUpDown {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+
 @media (max-width: 767px) {
-    .get-started-2-sub-container{
+    .get-started-2-sub-container {
         flex-direction: column-reverse;
     }
-    .get-started-2-text-container{
+
+    .get-started-2-text-container {
         padding-left: 20px;
+        margin-right: 0px;
+    }
+
+    .image-style-2 {
+        width: 90%;
+    }
+
+    .get-started-2-text-container h2 {
+        font-size: 24px;
+    }
+
+    .get-started-2-button {
+        width: 100%;
     }
 }
