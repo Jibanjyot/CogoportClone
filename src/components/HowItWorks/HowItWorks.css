@@ -168,12 +168,15 @@
     position: absolute;
     top: 60%;
     left: 33%;
+    width: 30%;
+    width: 20% !important;
 }
 
 .top-right-arrow {
     position: absolute;
     top: 30%;
-    right: 28%;
+    right: 23%;
+    width: 20% !important;
     
 }
 
@@ -181,7 +184,8 @@
 .bottom-right-arrow {
     position: absolute;
     top: 60%;
-    right: 28%;
+    right: 23%;
+    width: 20% !important;
     /* width: 10% !important; */
 }
 
@@ -189,11 +193,11 @@
     position: absolute;
     top: 30%;
     left: 33%;
-    /* width: 10% !important; */
+    width: 20% !important;
 }
 
 .arrow-image-style{
-    width: 70%;
+    width: 50%;
 }
 
 @media (max-width: 767px) {
