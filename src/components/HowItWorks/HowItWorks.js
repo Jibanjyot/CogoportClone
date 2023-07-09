@@ -22,7 +22,7 @@ const HowItWorks = () => {
                         For Logistics Partners
                     </button>
                 </div>
-                
+
                 {selectedOption === 'cargoOwners' && (
                     <div>
                         <div className='demo-holder'>
@@ -33,7 +33,7 @@ const HowItWorks = () => {
                                     src="https://www.cogoport.com/_next/image?url=https%3A%2F%2Fcdn.cogoport.io%2Fcms-prod%2Fcogo_public%2Fvault%2Foriginal%2Fhomepagem1.png&amp;w=1200&amp;q=75"
                                     style={{ color: "transparent" }} />
                             </div>
-                            <div>
+                            <div className='demo-holder-sub-holder'>
                                 <div className='top-stages-Class-left'>
                                     <p>Stage 1</p>
                                     <div className='how-it-works-card-subheader'>
@@ -50,11 +50,12 @@ const HowItWorks = () => {
 
                                 </div>
                                 <div>
-                                    <div className="top-left-arrow"><img alt="line for stages" loading="lazy" width="150"
-                                        height="59" decoding="async" data-nimg="1" className="arrow-image-style"
-                                        srcset="https://www.cogoport.com/_next/image?url=https%3A%2F%2Fcdn.cogoport.io%2Fcms-prod%2Fcogo_public%2Fvault%2Foriginal%2Flinearrow1.png&amp;w=256&amp;q=75 1x, https://www.cogoport.com/_next/image?url=https%3A%2F%2Fcdn.cogoport.io%2Fcms-prod%2Fcogo_public%2Fvault%2Foriginal%2Flinearrow1.png&amp;w=384&amp;q=75 2x"
-                                        src="https://www.cogoport.com/_next/image?url=https%3A%2F%2Fcdn.cogoport.io%2Fcms-prod%2Fcogo_public%2Fvault%2Foriginal%2Flinearrow1.png&amp;w=384&amp;q=75"
-                                        style={{ color: "transparent" }} /></div>
+                                    <div className="top-left-arrow">
+                                        <img alt="line for stages" loading="lazy" decoding="async" data-nimg="1" className="arrow-image-style"
+                                            srcset="https://www.cogoport.com/_next/image?url=https%3A%2F%2Fcdn.cogoport.io%2Fcms-prod%2Fcogo_public%2Fvault%2Foriginal%2Flinearrow1.png&amp;w=256&amp;q=75 1x, https://www.cogoport.com/_next/image?url=https%3A%2F%2Fcdn.cogoport.io%2Fcms-prod%2Fcogo_public%2Fvault%2Foriginal%2Flinearrow1.png&amp;w=384&amp;q=75 2x"
+                                            src="https://www.cogoport.com/_next/image?url=https%3A%2F%2Fcdn.cogoport.io%2Fcms-prod%2Fcogo_public%2Fvault%2Foriginal%2Flinearrow1.png&amp;w=384&amp;q=75"
+                                            style={{ color: "transparent" }} />
+                                    </div>
                                 </div>
                                 <div className='bottom-stages-Class-left'>
                                     <p>Stage 2</p>
@@ -66,14 +67,14 @@ const HowItWorks = () => {
                                         <ul>
                                             <li>Route, Service Schedules, Inventory, and Cashflow planning</li>
                                             <li>Book with upfront visibility of service terms and inclusions</li>
-                                            
+
                                         </ul>
                                     </div>
 
                                 </div>
                                 <div>
-                                    <div className="discover-arrow"><img alt="line for stages" loading="lazy" width="150"
-                                        height="59" decoding="async" data-nimg="1" className="arrow-image-style"
+                                    <div className="discover-arrow"><img alt="line for stages" loading="lazy"
+                                         decoding="async" data-nimg="1" className="arrow-image-style"
                                         srcset="https://www.cogoport.com/_next/image?url=https%3A%2F%2Fcdn.cogoport.io%2Fcms-prod%2Fcogo_public%2Fvault%2Foriginal%2Flinearrow2.png&amp;w=384&amp;q=75 2x"
                                         src="https://www.cogoport.com/_next/image?url=https%3A%2F%2Fcdn.cogoport.io%2Fcms-prod%2Fcogo_public%2Fvault%2Foriginal%2Flinearrow2.png&amp;w=384&amp;q=75"
                                         style={{ color: "transparent" }} /></div>
@@ -81,7 +82,7 @@ const HowItWorks = () => {
 
                             </div>
 
-                            <div className='cogoport-screen'>
+                            <div className='cogoport-screen demo-holder-sub-holder' style={{ width: "33.33%" }}>
                                 <img alt="cogoport platform with rate search" loading="lazy" width="560" height="320" decoding="async" data-nimg="1"
                                     className="laptop_image"
                                     srcset="https://www.cogoport.com/_next/image?url=https%3A%2F%2Fcdn.cogoport.io%2Fcms-prod%2Fcogo_public%2Fvault%2Foriginal%2Fhomepagem1.png&amp;w=640&amp;q=75 1x, https://www.cogoport.com/_next/image?url=https%3A%2F%2Fcdn.cogoport.io%2Fcms-prod%2Fcogo_public%2Fvault%2Foriginal%2Fhomepagem1.png&amp;w=1200&amp;q=75 2x"
@@ -89,9 +90,9 @@ const HowItWorks = () => {
                                     style={{ color: "transparent" }} />
                             </div>
 
-                            <div>
+                            <div className='demo-holder-sub-holder'>
                                 <div>
-                                    <div className="top-right-arrow"><img alt="line for stages" loading="lazy" width="150" height="59" decoding="async" data-nimg="1"
+                                    <div className="top-right-arrow"><img alt="line for stages" loading="lazy"  decoding="async" data-nimg="1"
                                         className="arrow-image-style"
                                         srcset="https://www.cogoport.com/_next/image?url=https%3A%2F%2Fcdn.cogoport.io%2Fcms-prod%2Fcogo_public%2Fvault%2Foriginal%2Flinearrow.png&amp;w=256&amp;q=75 1x,https://www.cogoport.com/_next/image?url=https%3A%2F%2Fcdn.cogoport.io%2Fcms-prod%2Fcogo_public%2Fvault%2Foriginal%2Flinearrow.png&amp;w=384&amp;q=75 2x"
                                         src="https://www.cogoport.com/_next/image?url=https%3A%2F%2Fcdn.cogoport.io%2Fcms-prod%2Fcogo_public%2Fvault%2Foriginal%2Flinearrow.png&amp;w=384&amp;q=75"
@@ -114,8 +115,8 @@ const HowItWorks = () => {
                                 </div>
                                 <div>
                                     <div className="bottom-right-arrow">
-                                        <img alt="home page arrow" loading="lazy" width="150" height="59" decoding="async" data-nimg="1"
-                                           className="arrow-image-style"
+                                        <img alt="home page arrow" loading="lazy" decoding="async" data-nimg="1"
+                                            className="arrow-image-style"
                                             srcset="https://www.cogoport.com/_next/image?url=https%3A%2F%2Fcdn.cogoport.io%2Fcms-prod%2Fcogo_public%2Fvault%2Foriginal%2Flinearrow4.png&amp;w=256&amp;q=75 1x, https://www.cogoport.com/_next/image?url=https%3A%2F%2Fcdn.cogoport.io%2Fcms-prod%2Fcogo_public%2Fvault%2Foriginal%2Flinearrow4.png&amp;w=384&amp;q=75 2x"
                                             src="https://www.cogoport.com/_next/image?url=https%3A%2F%2Fcdn.cogoport.io%2Fcms-prod%2Fcogo_public%2Fvault%2Foriginal%2Flinearrow4.png&amp;w=384&amp;q=75"
                                             style={{ color: "transparent" }} /></div>
@@ -148,7 +149,7 @@ const HowItWorks = () => {
                         <p>Content for Logistics Partners</p>
                     </div>
                 )}
-               
+
             </div>
         </div>
 
