@@ -24,7 +24,7 @@ function App() {
     <div>
       <PreNavbar></PreNavbar>
       <Navbar></Navbar>
-   
+     
       <Introduction></Introduction>
       <WhatsAppfixed></WhatsAppfixed>
       <Achievements></Achievements>
@@ -41,6 +41,8 @@ function App() {
       <SubscribeToNewsletter></SubscribeToNewsletter>
       <PreFooter></PreFooter>
       <Prefooter2></Prefooter2>
+      
+      
       
     </div>
   );
