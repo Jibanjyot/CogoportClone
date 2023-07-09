@@ -1,6 +1,6 @@
 .how-it-works-main-container {
     /* width: auto; */
-    width: 1200px;
+    /* width: 1200px; */
     /* width: fit-content; */
     padding: 16px;
     display: flex;
@@ -95,7 +95,8 @@
 .top-stages-Class-left {
     margin-bottom: 120px;
     margin-top: 20px;
-    width: 300px;
+    /* max-width:  300px; */
+    width:  300px;
     padding: 16px;
     border-radius: 10px;
     box-shadow: 0 1px 6px rgba(169, 188, 218, .65);
@@ -104,19 +105,31 @@
 .top-stages-Class-right {
     margin-bottom: 120px;
     margin-top: -30px;
-    width: 300px;
+    /* max-width:  300px; */
+    width:  300px;
     padding: 16px;
     border-radius: 10px;
     box-shadow: 0 1px 6px rgba(169, 188, 218, .65);
 }
 
-.bottom-stages-Class {
+.bottom-stages-Class-left {
     margin-bottom: 120px;
-    width: 300px;
+    /* max-width:  300px; */
+    width:  300px;
     padding: 16px;
     border-radius: 10px;
     box-shadow: 0 1px 6px rgba(169, 188, 218, .65);
 }
+
+.bottom-stages-Class-right {
+    margin-bottom: 120px;
+    /* max-width:  300px; */
+    width:  300px;
+    padding: 16px;
+    border-radius: 10px;
+    box-shadow: 0 1px 6px rgba(169, 188, 218, .65);
+}
+
 
 .cogoport-screen {
     display: flex;
@@ -126,7 +139,8 @@
 
 .demo-holder {
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
+    position: relative;
     font-family: "PT Sans",sans-serif;
 }
 
@@ -162,6 +176,10 @@
     left: 300px
 }
 
+.arrow-image-style{
+    width: 150px;
+}
+
 @media (max-width: 767px) {
     .top-left-arrow {
         display: none;
@@ -186,11 +204,10 @@
     }
 }
 
-
-.laptop_image {
-    width: 560px;
-    height: 320px
-}
+/* .laptop_image {
+    width: 100%;
+    height: auto;
+}  */
 
 .cogoport-screen-mobile {
     display: none;
@@ -222,7 +239,11 @@
         margin-bottom: 20px;
         width: 100%;
     }
-    .bottom-stages-Class{
+    .bottom-stages-Class-left{
+        margin-bottom: 50px;
+        width: 100%;
+    }
+    .bottom-stages-Class-right{
         margin-bottom: 50px;
         width: 100%;
     }
@@ -231,3 +252,4 @@
     }
 
 }
+

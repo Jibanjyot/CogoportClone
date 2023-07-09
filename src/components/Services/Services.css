@@ -10,7 +10,7 @@
 }
 
 .containerS2 {
-    width: 1200px;
+    /* width: 1200px; */
     margin-top: 40px;
 }
 
@@ -89,7 +89,7 @@
 }
 
 .containerS6 {
-    width: 1200px;
+    /* width: 1200px; */
     display: flex;
     align-items: center;
     justify-content: center;
