@@ -7,4 +7,5 @@
 
 # How to run
 
-* Navigate to the root and run npm start
+* Navigate to the root and run 
+### `npm start`
