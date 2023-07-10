@@ -82,7 +82,7 @@ const HowItWorks = () => {
 
                             </div>
 
-                            <div className='cogoport-screen demo-holder-sub-holder' style={{ width: "33.33%" }}>
+                            <div className='cogoport-screen demo-holder-sub-holder' style={{ width: "33.33%" }} >
                                 <img alt="cogoport platform with rate search" loading="lazy" width="560" height="320" decoding="async" data-nimg="1"
                                     className="laptop_image"
                                     srcset="https://www.cogoport.com/_next/image?url=https%3A%2F%2Fcdn.cogoport.io%2Fcms-prod%2Fcogo_public%2Fvault%2Foriginal%2Fhomepagem1.png&amp;w=640&amp;q=75 1x, https://www.cogoport.com/_next/image?url=https%3A%2F%2Fcdn.cogoport.io%2Fcms-prod%2Fcogo_public%2Fvault%2Foriginal%2Fhomepagem1.png&amp;w=1200&amp;q=75 2x"

@@ -17,3 +17,20 @@
   --font-size-xs: 10px;
   --line-height: 1.5;
 }
+
+.app-container{
+  width: 100%;
+}
+
+@media (max-width: 1200px){
+  .app-container{
+      width: 1200px;
+  }
+}
+
+
+@media (max-width: 767px){
+  .app-container{
+      width: 100%;
+  }
+}

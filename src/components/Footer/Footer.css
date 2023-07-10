@@ -1,0 +1,104 @@
+.bottom_main_container{
+    z-index: 10000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 8px 30px;
+    background: #ebbe00;
+}
+.bottom_left_container{
+    display: flex;
+    align-items: center;
+}
+.bottom_copyright_container{
+    display: flex;
+    margin-left: 10px;
+    font-family: "Ubuntu",sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    list-style-type: none;
+
+}
+.bottom_copyright_list{
+    display: flex;
+    margin-left: 10px;
+    font-family: "Ubuntu",sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    list-style-type: none;
+}
+.bottom_list_element{
+    margin-right: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+.bottom_copyright_list a{
+    color: #000;
+    text-decoration: none;
+}
+.bottom_language_div1{
+    display: flex;
+    align-items: center;
+}
+div {
+    display: block;
+}
+.bottom_language_div2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    background: transparent;
+    border-radius: 8px;
+}
+.bottom_language_div2{
+    display: flex;
+    align-items: center;
+}
+.bottom_globe a{
+    width: 20px;
+    height: 20px;
+}
+.bottom_language_text{
+    margin-bottom: 6px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #ee3425;
+    text-decoration: underline;
+}
+.bottom_social_icons{
+    padding: 8px 30px;
+}
+.bottom_social_icons a{
+    color: #ee3425;
+    text-decoration: none;
+}
+.bottom_social_icons svg{
+margin-right: 4px;
+color: #000;
+cursor: pointer;
+}
+@media (max-width: 768px) {
+    html,body{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+
+    }
+    .bottom_copyright_list{
+        display: none;
+    }
+    .bottom_language_div1{
+        flex-direction: row-reverse;
+    }
+    .bottom_main_container{
+        padding: 0;
+        margin: 0;
+        align-items: flex-start;
+        flex-direction: column-reverse;
+    }
+
+  }

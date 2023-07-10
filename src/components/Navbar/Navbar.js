@@ -18,7 +18,7 @@ const Navbar = () => {
         // <div className='navbar'>
 
         // </div>
-        <nav id='navbar' className="navbar navbar-expand-lg navbar-light" style={{ background: '#fbdc00' }}>
+        <nav id='navbar' className="navbar navbar-expand-md navbar-light" style={{ background: '#fbdc00' }}>
             <button
                 className="navbar-toggler"
                 type="button"

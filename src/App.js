@@ -16,35 +16,37 @@ import PreFooter from "./components/PreFooter/PreFooter";
 import Prefooter2 from "./components/Prefooter2/Prefooter2";
 import Curve2 from "./components/Curve2/Curve2";
 import WhatsAppfixed from "./components/WhatsappFixed/WhatsAppfixed";
+import Footer from "./components/Footer/Footer";
 import "./App.css"
 
 
 function App() {
   return (
     <div>
-      <PreNavbar></PreNavbar>
-      <Navbar></Navbar>
-     
-      <Introduction></Introduction>
-      <WhatsAppfixed></WhatsAppfixed>
-      <Achievements></Achievements>
-      <Curve></Curve>
-      <Services></Services>
-      <Clients></Clients>
-      <GetStarted></GetStarted>
-      <HowItWorks></HowItWorks>
-      <IndustriesServed></IndustriesServed>
-      <GetStarted2></GetStarted2>
-      <GrowFaster></GrowFaster>
-      <Blogs></Blogs>
-      <Curve2></Curve2>
-      <SubscribeToNewsletter></SubscribeToNewsletter>
-      <PreFooter></PreFooter>
-      <Prefooter2></Prefooter2>
       
-      
-      
+      <div className="app-container">
+        <PreNavbar></PreNavbar>
+        <Navbar></Navbar>
+        <Introduction></Introduction>
+        <WhatsAppfixed></WhatsAppfixed>
+        <Achievements></Achievements>
+        <Curve></Curve>
+        <Services></Services>
+        <Clients></Clients>
+        <GetStarted></GetStarted>
+        <HowItWorks></HowItWorks>
+        <IndustriesServed></IndustriesServed>
+        <GetStarted2></GetStarted2>
+        <GrowFaster></GrowFaster>
+        <Blogs></Blogs>
+        <Curve2></Curve2>
+        <SubscribeToNewsletter></SubscribeToNewsletter>
+        <PreFooter></PreFooter>
+        <Prefooter2></Prefooter2>
+        <Footer></Footer>
+      </div>
     </div>
+
   );
 }
 
